@@ -198,14 +198,6 @@ def signin():
         option()
 
 signin()
-'''
-import mysql.connector as a
-mydb=a.connect(host='localhost',user='root',passwd='5283',database='MEDICALSTORE')
-mycursor=mydb.cursor()
-mycursor.execute('drop table employee')
-mycursor.execute('drop table medicine')
-mycursor.execute('drop table cart')
-mydb.commit()
-'''
+
 
 
